@@ -1,0 +1,44 @@
+body{
+  background-image: linear-gradient(black, #30302d);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  color: gray;
+}
+
+.whiteBox{
+  background-color: white;
+  width: 50%;
+  height: 80%;
+  margin: auto;
+  border-style: solid;
+  border-color: gray;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.buttonSignUp {
+  background-color: #4CAF50;
+  border: solid;
+  border-color: gray;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.buttonLogIn {
+  background-color: white;
+  border: solid;
+  border-color: gray;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}

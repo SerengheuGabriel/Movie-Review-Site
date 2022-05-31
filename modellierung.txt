@@ -1,0 +1,29 @@
+users (1:M)
+userID (PK)
+lastName
+firstName
+userName
+profilePicture
+bio
+
+reviews (1:M)
+postID (PK)
+postText
+picture
+likes
+
+userReviews (M:M)
+postID (FK)
+userID (FK)
+
+comments (M:M)
+postID
+userID
+text	
+
+followed (M:M)
+theFollowerID
+theFollowedID
+
+mostFollowed (1:M)
+userNameID

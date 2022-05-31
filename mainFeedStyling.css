@@ -1,0 +1,174 @@
+body{
+  display: flex;
+  background-image: linear-gradient(black, #30302d);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  color: gray;
+  margin:0px;
+  height:100%;
+  justify-content: center;
+}
+
+.whiteBox{
+  position: absolute;
+  display: flex;
+  background-color: white;
+  min-width: 90%;
+  max-width: 90%;
+  height: 95%;
+  border-style: solid;
+  border-color: gray;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.leftSide{
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  border: 1px solid black;
+  min-width: 30%;
+}
+
+.myProfilePicture {
+  width=5%;
+  height=5%;
+}
+
+.extras {
+  order:1;
+  margin-top: auto;
+
+}
+
+.settings{
+  padding: 5px;
+}
+
+.logOut{
+  padding: 5px;
+}
+
+.friendProfile {
+  align-items: center;
+}
+
+.middle{
+  Overflow-y:scroll;
+  overflow-x: hidden;
+  display: flex;
+  order: 2;
+  flex-direction: column;
+  border: 1px solid black;
+  min-width: 50%;
+}
+
+.order1 {
+  order: 1;
+}
+
+.order2 {
+  order: 2;
+}
+
+.order3{
+  order: 3;
+}
+
+.followButton {
+  order: 1;
+}
+
+.createPost{
+  order: 1;
+  border: 3px solid green;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.feed{
+  order: 2;
+}
+
+.friendFeed{
+  order: 3;
+  padding: 5px;
+}
+
+.post{
+  display: flex;
+  border: 3px solid green;
+  border-radius: 6px;
+  flex-direction: column;
+}
+
+.star {
+  height: 5%;
+  width: 5%;
+}
+
+.postUserInfo {
+  order: 1;
+}
+
+.postText {
+
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  order: 2;
+}
+
+.postMovieInfo{
+  order: 3;
+}
+
+.rightSide{
+  Overflow-y:scroll;
+  overflow-x: hidden;
+  order:3;
+  border: 1px solid black;
+  min-width: 20%;
+}
+
+.recommendedFriends{
+  background:none;
+  border:none;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}

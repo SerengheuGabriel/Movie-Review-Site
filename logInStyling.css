@@ -1,0 +1,24 @@
+body{
+  background-image: linear-gradient(black, #30302d);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  color: black;
+}
+
+.whiteBox{
+  background-color: white;
+  width: 50%;
+  height: 80%;
+  margin: auto;
+  border-style: solid;
+  border-color: gray;
+  text-align: center;
+  border-radius: 6px;
+}
+
+input {
+  color: gray;
+}
