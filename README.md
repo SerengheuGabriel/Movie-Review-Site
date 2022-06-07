@@ -26,3 +26,6 @@ TO DO:
   -add nr of followers counter for profile
   -sort the recommended list by most followed / most common followers
   -create page suggesting movies by user reviews
+  
+  Current state of project 06.07.2022
+  https://www.loom.com/share/b2a0a342ecf84a03bd005bc3db16b5bf
